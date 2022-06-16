@@ -14,7 +14,8 @@
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development webpack-dev-server --config demo/webpack.config.js",
     "semantic-release": "semantic-release",
     "test": "jest",
-    "now-build": "webpack --config demo/webpack.config.js"
+    "now-build": "webpack --config demo/webpack.config.js",
+    "prepare": "preconstruct build"
   },
   "repository": {
     "type": "git",
